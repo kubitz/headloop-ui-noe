@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🧬 Headloop Primer Designer")
+st.title("🧬 FishWeb Designer")
 
 st.markdown("""
 This tool helps design headloop primers for suppression PCR to suppress amplification of a known haplotype.
