@@ -19,8 +19,8 @@ Please provide the following information:
 col1, col2 = st.columns(2)
 
 with col1:
-    sense_oligo = st.text_input("Sense Primer", placeholder="e.g., CTGGTCCAGTGCGTTATTGG")
-    antisense_oligo = st.text_input("Antisense Primer", placeholder="e.g., AGCCAAATGCTTCTTGCTCTTTT")
+    sense_oligo = st.text_input("Sense Primer (right primer)", placeholder="e.g., CTGGTCCAGTGCGTTATTGG")
+    antisense_oligo = st.text_input("Antisense Primer (left primer)", placeholder="e.g., AGCCAAATGCTTCTTGCTCTTTT")
 
 with col2:
     guide_context = st.text_input(
