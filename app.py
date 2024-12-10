@@ -3,7 +3,7 @@ from headloop.designer import design
 from Bio.SeqRecord import SeqRecord
 
 st.set_page_config(
-    page_title="Headloop Primer Designer",
+    page_title="FishWeb Designer",
     page_icon="🧬",
     layout="wide"
 )
